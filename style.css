@@ -1,7 +1,18 @@
+
+/*  family=Strój:wght@400;700&
+
+COLORS
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
 *
 {
     box-sizing: border-box;
-    border: 1px red solid;
+    border: 0px red solid;
 }
 
 body{
@@ -9,6 +20,7 @@ body{
     padding: 0;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
     width: 100%;
     min-height: 100vh;
 }
@@ -34,16 +46,34 @@ main
     min-height: 100vh;
 }
 .qr{
+    box-shadow:0 0 10px rgb(173, 173, 173);
     background-color: white;
     height: fit-content;
     border-radius: 0.7rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    text-align: center;
 }
 .qr img{
     width: 200px;
     height: 200px;
 }
+main p{
+    padding: 0 0.6rem 0 0.6rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    max-width: 200px;
+    font-family: 'Outfit', sans-serif;
+}
+main .a{
+    padding: 0 0.6rem 0 0.6rem;
+    font-weight: normal;
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+    max-width: 200px;
+    font-family: 'Outfit', sans-serif;
 
+}
 
-
-/*  family=Strój:wght@400;700& */ 
+/* 
+Szymon Widera
+*/

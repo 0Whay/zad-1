@@ -1,0 +1,49 @@
+*
+{
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+.img1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    border-radius: 1.2rem;
+    
+
+}
+
+main
+{   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.qr{
+    background-color: white;
+    height: fit-content;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+}
+.qr img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/*  family=Strój:wght@400;700& */ 
